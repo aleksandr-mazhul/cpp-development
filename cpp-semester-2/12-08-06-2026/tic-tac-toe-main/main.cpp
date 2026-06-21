@@ -2,9 +2,12 @@
 #include <stdexcept>
 #include <utility>
 
+#include <fstream>
+
 #include "Game.h"
 #include "HumanPlayer.h"
 #include "BotPlayer.h"
+#include "SmartBotPlayer.h"
 
 int main()
 {
@@ -25,10 +28,14 @@ int main()
     }*/
     try
     {
-        auto playerX = std::make_unique<HumanPlayer>("Player 1", 'X');
-        auto playerO = std::make_unique<BotPlayer>("Player 2", 'O');
-        Game game(std::move(playerX), std::move(playerO), 3);
-        game.run();
+        auto playerX = std::make_unique<HumanPlayer>("Yaroslav", 'X');
+        auto playerO = std::make_unique<SmartBotPlayer>("Smart Bot", 'O');
+        //auto playerX = std::make_unique<HumanPlayer>("Player 1", 'X');
+        //auto playerO = std::make_unique<BotPlayer>("Player 2", 'O');
+        Game game(std::move(playerO), std::move(playerX), 3);
+        std::ofstream fout("player.txt");
+        game.run(fout);
+        fout.close();
     }
     catch (const std::logic_error& e)
     {

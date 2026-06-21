@@ -16,13 +16,13 @@ int main()
     std::cout << pizza1 << std::endl;
 
     auto pizza2 = Pizza::Builder()
-                  .setSize("large")
-                  .setDough("thick")
-                  .setSauce("bbq")
-                  .addTopping("mushrooms")
-                  .addTopping("olives")
-                  .addTopping("pepperoni")
-                  .build();
+                      .setSize("large")
+                      .setDough("thick")
+                      .setSauce("bbq")
+                      .addTopping("mushrooms")
+                      .addTopping("olives")
+                      .addTopping("pepperoni")
+                      .build();
 
     std::cout << pizza2 << std::endl;
 
@@ -30,8 +30,14 @@ int main()
 
     std::cout << pizza3 << std::endl;
 
-    Order order(1, "Alex");
+    Order order(1, name);
     order.addPizza(pizza1);
+    order.addPizza(pizza2);
+    order.addPizza(pizza3);
 
     std::cout << order;
+    order.saveToFile(
+        "/Users/alexandermazhul/CLionProjects/mazhul-cpp-development/cpp-semester-2/"
+                     "09-10-04-2026/pizza/order.txt"
+                     );
 }

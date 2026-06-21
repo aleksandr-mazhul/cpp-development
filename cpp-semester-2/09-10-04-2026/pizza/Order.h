@@ -1,9 +1,9 @@
 #pragma once
 #include "Pizza.h"
 
-#include <ostream>
 #include <string>
 #include <vector>
+#include <fstream>
 
 class Order
 {
@@ -16,6 +16,7 @@ public:
 
     int count() const;
 
+    void saveToFile(const std::string& fileName) const;
     friend std::ostream& operator<<(std::ostream& os, const Order& order);
 
 private:

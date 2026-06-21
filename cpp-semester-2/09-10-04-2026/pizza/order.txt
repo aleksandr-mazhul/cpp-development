@@ -1,0 +1,16 @@
+====== Order #1 ======
+Client: jfhf
+
+small, thin, tomato
+(no toppings)
+Price: 300
+
+large, thick, bbq
+mushrooms, olives, pepperoni
+Price: 850
+
+medium, thin, tomato
+mozzarella
+Price: 550
+
+Total: 1700

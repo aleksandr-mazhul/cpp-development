@@ -47,13 +47,30 @@ Pizza Pizza::Builder::build()
 
 std::ostream& operator<<(std::ostream& os, const Pizza& pizza)
 {
-    os << "Pizza: size-" << pizza.size << ", dough-" << pizza.dough << ", sauce-" << pizza.sauce;
+    os << pizza.size << ", "
+       << pizza.dough << ", "
+       << pizza.sauce << "\n";
 
-    for (size_t i = 0; i < pizza.toppings.size(); ++i)
+    if (pizza.toppings.empty())
     {
-        os << (i == 0 ? ", toppings-" : ", ") << pizza.toppings[i];
+        os << "(no toppings)\n";
+    }
+    else
+    {
+        for (size_t i = 0; i < pizza.toppings.size(); ++i)
+        {
+            os << pizza.toppings[i];
+
+            if (i != pizza.toppings.size() - 1)
+            {
+                os << ", ";
+            }
+        }
+
+        os << "\n";
     }
 
-    os << ", pizza costs: " << pizza.getPrice() << " rubles";
+    os << "Price: " << pizza.getPrice();
+
     return os;
 }

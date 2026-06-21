@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "name": "Mouse",
+      "price": 1200,
+      "quantity": 5,
+      "totalAmount": 6000
+    },
+    {
+      "name": "Keyboard",
+      "price": 3500,
+      "quantity": 2,
+      "totalAmount": 7000
+    },
+    {
+      "name": "Stylus",
+      "price": 1800,
+      "quantity": 7,
+      "totalAmount": 12600
+    },
+    {
+      "name": "Monitor",
+      "price": 15000,
+      "quantity": 1,
+      "totalAmount": 15000
+    },
+    {
+      "name": "Mouse Pad",
+      "price": 450,
+      "quantity": 40,
+      "totalAmount": 18000
+    },
+    {
+      "name": "Cable HDMI",
+      "price": 650,
+      "quantity": 30,
+      "totalAmount": 19500
+    },
+    {
+      "name": "Router",
+      "price": 5400,
+      "quantity": 4,
+      "totalAmount": 21600
+    },
+    {
+      "name": "USB Hub",
+      "price": 890,
+      "quantity": 25,
+      "totalAmount": 22250
+    },
+    {
+      "name": "Webcam",
+      "price": 2800,
+      "quantity": 8,
+      "totalAmount": 22400
+    },
+    {
+      "name": "External HDD 2TB",
+      "price": 5800,
+      "quantity": 4,
+      "totalAmount": 23200
+    },
+    {
+      "name": "Printer",
+      "price": 12500,
+      "quantity": 2,
+      "totalAmount": 25000
+    },
+    {
+      "name": "Docking Station",
+      "price": 8900,
+      "quantity": 3,
+      "totalAmount": 26700
+    },
+    {
+      "name": "Laptop Stand",
+      "price": 1900,
+      "quantity": 15,
+      "totalAmount": 28500
+    },
+    {
+      "name": "Microphone",
+      "price": 6200,
+      "quantity": 5,
+      "totalAmount": 31000
+    },
+    {
+      "name": "Ink Cartridge",
+      "price": 2100,
+      "quantity": 18,
+      "totalAmount": 37800
+    },
+    {
+      "name": "RAM 16GB",
+      "price": 4100,
+      "quantity": 10,
+      "totalAmount": 41000
+    },
+    {
+      "name": "SSD 1TB",
+      "price": 7200,
+      "quantity": 6,
+      "totalAmount": 43200
+    },
+    {
+      "name": "Tablet",
+      "price": 22000,
+      "quantity": 2,
+      "totalAmount": 44000
+    },
+    {
+      "name": "Power Bank",
+      "price": 3200,
+      "quantity": 14,
+      "totalAmount": 44800
+    },
+    {
+      "name": "Headphones",
+      "price": 4500,
+      "quantity": 12,
+      "totalAmount": 54000
+    }
+  ]
+}

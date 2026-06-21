@@ -29,3 +29,9 @@ private:
     std::string name;
     char mark;
 };
+
+std::ostream& operator<<(std::ostream& stream, const Player& player)
+{
+    stream << player.getName() << ":" << player.getMark();
+    return stream;
+}

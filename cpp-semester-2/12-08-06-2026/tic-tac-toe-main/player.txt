@@ -1,0 +1,2 @@
+player 1:Smart Bot:O
+player 2:Yaroslav:X

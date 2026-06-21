@@ -1,5 +1,6 @@
 #pragma once
 
+#include <ostream>
 #include <iostream>
 #include <vector>
 
@@ -118,35 +119,35 @@ public:
         return true;
     }
 
-    void print() const
+    void print(std::ostream& stream) const
     {
-        std::cout << "\n  ";
+        stream << "\n  ";
         for (int col = 0; col < size; col++)
         {
-            std::cout << " " << col + 1 << "  ";
+            stream << " " << col + 1 << "  ";
         }
-        std::cout << "\n";
+        stream << "\n";
 
         for (int row = 0; row < size; row++)
         {
             if (row > 0)
             {
-                std::cout << "  ";
+                stream << "  ";
                 for (int col = 0; col < size; col++)
                 {
-                    std::cout << "---+";
+                    stream << "---+";
                 }
-                std::cout << "\b \n";
+                stream << "\b \n";
             }
 
-            std::cout << row + 1 << " ";
+            stream << row + 1 << " ";
             for (int col = 0; col < size; col++)
             {
-                std::cout << "| " << grid[row][col] << " ";
+                stream << "| " << grid[row][col] << " ";
             }
-            std::cout << "|\n";
+            stream << "|\n";
         }
-        std::cout << "\n";
+        stream << "\n";
     }
 
 private:

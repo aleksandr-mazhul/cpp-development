@@ -1,0 +1,22 @@
+Name                Price       Quantity    Total Amount   
+-----------------------------------------------------------
+Mouse               1200        5           6000           
+Keyboard            3500        2           7000           
+Stylus              1800        7           12600          
+Monitor             15000       1           15000          
+Mouse Pad           450         40          18000          
+Cable HDMI          650         30          19500          
+Router              5400        4           21600          
+USB Hub             890         25          22250          
+Webcam              2800        8           22400          
+External HDD 2TB    5800        4           23200          
+Printer             12500       2           25000          
+Docking Station     8900        3           26700          
+Laptop Stand        1900        15          28500          
+Microphone          6200        5           31000          
+Ink Cartridge       2100        18          37800          
+RAM 16GB            4100        10          41000          
+SSD 1TB             7200        6           43200          
+Tablet              22000       2           44000          
+Power Bank          3200        14          44800          
+Headphones          4500        12          54000          
