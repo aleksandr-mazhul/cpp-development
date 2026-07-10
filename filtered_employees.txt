@@ -1,3 +1,0 @@
-Name: Alice Brown, Age: 30, Salary: 1200, Experience: 6
-Name: Charlie Johnson, Age: 40, Salary: 1800, Experience: 12
-Name: Evan Lee, Age: 38, Salary: 2200, Experience: 10
