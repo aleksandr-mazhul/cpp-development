@@ -1048,3 +1048,6 @@ dkms.conf
 *.dis
 # Ignore entire .idea folder
 .idea/
+
+# Local Linux lazygit binary (not coursework)
+/lazygit
